@@ -6,5 +6,5 @@ RUN pip install -r requirements.txt
 
 COPY transcript_service.py .
 
-EXPOSE 5000
+EXPOSE 3000
 CMD ["python", "transcript_service.py"]
